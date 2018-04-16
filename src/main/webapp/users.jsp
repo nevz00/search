@@ -17,24 +17,24 @@
     <table cellpadding="3" cellspacing="0" border="0" style="width: 67%; margin: 0 auto 2em auto;">
         <thead>
         <tr>
-            <th>Target</th>
-            <th>Search text</th>
+            <th>Колонки для поиска</th>
+            <th>Поиск</th>
         </tr>
         </thead>
         <tbody>
 
         <tr id="filter_col1" data-column="0">
-            <td>Column - Name</td>
+            <td>Колонка - ФИО</td>
             <td align="center"><input type="text" class="column_filter" id="col0_filter"></td>
 
         </tr>
         <tr id="filter_col2" data-column="1">
-            <td>Column - City</td>
+            <td>Колонка - Город</td>
             <td align="center"><input type="text" class="column_filter" id="col1_filter"></td>
 
         </tr>
         <tr id="filter_col3" data-column="2">
-            <td>Column - Car</td>
+            <td>Колонка - Автомобиль</td>
             <td align="center"><input type="text" class="column_filter" id="col2_filter"></td>
         </tr>
         </tbody>
@@ -44,9 +44,9 @@
     <table id="example" class="display" style="width:100%">
         <thead>
         <tr>
-            <th>Name</th>
-            <th>City</th>
-            <th>Cars</th>
+            <th>ФИО</th>
+            <th>Город</th>
+            <th>Автомобили</th>
         </tr>
         </thead>
         <c:forEach items="${users}" var="user">

@@ -2,15 +2,15 @@ DELETE FROM users;
 ALTER SEQUENCE global_seq RESTART WITH 100000;
 
 INSERT INTO users (name, city, car) VALUES
-  ('Max', 'Saratov', 'BMW'),
-  ('Alex', 'Moscow', 'BMW, Mercedes'),
-  ('Greg', 'Moscow', 'Lexus, Mazda'),
-  ('Max', 'Piter', 'Mazda'),
-  ('Ivan', 'Novgorod', 'Toyota'),
-  ('Petr', 'Moscow', 'Honda, Honda'),
-  ('Sam', 'Moscow', 'Opel, Land-Rover'),
-  ('Denis', 'Irkutsk', 'Lada'),
-  ('Alex', 'Sochi', 'Mercedes, Honda'),
-  ('Gleb', 'Sochi', 'Shkoda'),
-  ('Ivan', 'Samara', 'Volkswagen');
+  ('Иванов Иван Иванович', 'Саратов', 'BMW'),
+  ('Богданов Александр Николаевич', 'Москва', 'BMW, Mercedes'),
+  ('Кирсанов Григорий Николаевич', 'Москва', 'Lexus, Mazda'),
+  ('Галишников Максим Александрович', 'Санкт-Питербург', 'Mazda'),
+  ('Погодь Петр Максимович', 'Новгород', 'Toyota'),
+  ('Кремнев Олег Алексеевич', 'Москва', 'Honda, Honda'),
+  ('Луцкий Олег Николаевич', 'Москва', 'Opel, Land-Rover'),
+  ('Боровицкий Иван Валентинович', 'Иркутск', 'Lada'),
+  ('Глевников Александр Алексеевич', 'Сочи', 'Mercedes, Honda'),
+  ('Астафьев Петр Олегович', 'Сочи', 'Shkoda'),
+  ('Семенов Семон Семенович', 'Самара', 'Volkswagen');
 
